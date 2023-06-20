@@ -1,0 +1,19 @@
+h1{
+    background-color:#000000;
+    color: #ffffff;
+    text-align: left;
+}
+span{
+    color: #00ffff;
+}
+h2{
+    background-color: #663399;
+    color: #fcfbfd;
+   text-align: center;
+}
+h3{
+    background-color: #9fc5f8;
+    color: #251954;
+    align-items: flex-end;
+    text-align: right;
+}
