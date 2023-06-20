@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 10px;
+}
+.box{
+    box-shadow: 5px 5px ;
+}
+.person{
+width: 15%; 
+border-color: black;
+border: 3px;
+}
+.A>img{
+width: 40px;
+}
+.prev{
+    width: 10%;
+}
