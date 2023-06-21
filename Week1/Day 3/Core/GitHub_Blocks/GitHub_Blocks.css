@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 960px;
+    background-color: #f7f7ff;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 200px;
+}
+.row1{
+    margin: 20px;
+    background-color: #59c5f1;
+    display: flex;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    /* margin: 20px; */
+    background-color: #d7a1c2;
+    justify-content: space-around;
+}
+.row3{
+    margin: 20px;
+    background-color: #fcfcff;
+    display: flex;
+    justify-content: space-around;
+}
