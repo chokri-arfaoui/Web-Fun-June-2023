@@ -31,7 +31,7 @@ button{
 .account{
     color: white;
     background-color: #2b78e4;
-    border: 2px solid;
+    border: 2px solid black;
     box-shadow: 5px 10px black;
     width: 300px;
     height: 50px;
