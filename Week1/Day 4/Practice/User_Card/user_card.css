@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:700px;
+    height: 400px;
+    margin: 100px auto;
+    border: solid 3px;
+    border-color: silver;
+}
+nav{
+    background-color: #17a2b8;
+    height: 20%;
+}
+.user{
+    border-radius: 50%;
+    position: relative;
+    width: 20%;
+    left: 30px;
+    top: 15px;
+}
+.map{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 3%;
+}
+.gear{
+    display: flex;
+}
+.card{
+    margin-top: 70px;
+}
