@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    border: solid 3px;
+    border-color: #000000; 
+    background-color: aliceblue;
+}
+h1{
+    margin: auto;
+    display: flex ;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color:#000000 ;
+    width: auto;
+    height: 120px;
+    color: white;
+}
+.head{
+    background-color: #17a2b8;
+    width: 500px;
+    height: 150px;
+}
+.flex1{
+    margin-left: 30px;
+    width: 300px;
+    display: flex 1;
+}
+.flex2{
+    width: 900px;
+    display: flex 5;
+}
+
+.J{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    position: relative;
+    left: 50px;
+    top: 35px;
+    
+    
+}
+.map{
+    width: 20px;
+    justify-content: center;
+}
+.M{
+    display: flex;
+    align-content: center;
+}
+.one{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 500px;
+    border: solid 2px;
+    border-color: silver;
+}
+
+.gear{
+    width:20px;
+}
+ul{
+    display: flex;
+    
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #17a2b8;
+}
+.G{
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.two{
+    margin-left: 150px;
+    width: 500px;
+
+    border: solid 2px;
+    border-color: silver;
+}
+.A{
+    
+    background-color: black;
+    width: 480px;
+    color: white;
+    padding: 10px;
+}
+.B{
+    margin-left: 10px;
+    font-weight: lighter;
+    
+}
+h2{
+    margin-left: 10px;
+}
+h3{
+    margin-left: 10px;
+}
+.C{
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.main{
+    display: flex;
+}
+.three{
+    width: 400px;
+    border: solid 2px;
+    border-color: silver;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+    
+}
+.three h2{
+    background-color: black;
+    color: white;
+}
+.N{
+    display: flex;
+}
+.A1{
+    margin-left: 20px;
+}
+.A2{
+    margin-left: 20px;
+}
+.c11 {
+    margin-left: 100px;
+}
+.c22{
+    margin-left: 100px;
+}
+.four{
+    width: 400px;
+    border: solid 2px;
+    border-color: silver;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.four h2{
+    background-color: black;
+    color: white;
+}
