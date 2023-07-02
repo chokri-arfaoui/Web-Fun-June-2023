@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="Button_Clicker.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="D">Dojonary</h1>
+            <input class="search" type="search" id="search" placeholder="searsh" name="search">
+            <button  class="btn" type="button" onclick = "clicked(this)">Login</button>
+        </div>
+        <div class="page1">
+            <div>
+                <div class="first" >
+                    <div class=" F_one" onclick="alert('Ninja was liked')">
+                        <h1>ninja</h1>
+                        <br>
+                        <h3>noun</h3>
+                        <br>
+                        <p>Plural: ninjas</p><br>
+                            
+                        <button class="btn1" onclick="like(like1)" > <span id="like1">13</span> likes</button>
+                        
+                    </div>
+                    
+                    <div class="one" >
+                        <p> <strong>A Practitioner Skilled in <br>
+                            <a href="">Japanese</a> art of <a href="">Ninjutsu</a></strong> </p>
+                    </div>
+                </div>
+                <div class="first"  >
+                    <div class=" F_one" >
+                        <h1>ninja</h1>
+                        <br>
+                        <h3>noun</h3>
+                        <br>
+                        <p>Plural: ninjas</p>
+                        <br>
+                        <button class="btn1" onclick="like(like2)"> <span id="like2">37</span> likes</button>
+                    </div>
+                    <br><br>
+                    
+                    <div class="one" >
+                        <p> <strong>A <a href="">Programmer </a>who breaks<br>
+                            down problems with<a href=""> Zen </a>-like <br>
+                        focus </strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Dojonary is <br> defined by <strong>You</strong></h2>
+                <button  class="btn2"   id="button1"  onclick="remove('button1')"><strong>Add Definition</strong></button>
+            </div>
+        </div>
+    </div>
+    <script src="Button_Clicker.js"></script>
+</body>
+</html>
